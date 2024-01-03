@@ -1,8 +1,8 @@
 # Obsidian-Apawthecaria
-Snippets and templates for setting up and playing the solo journalling RPG Apawethecaria in Obsidian.md.
+Snippets and templates for setting up and playing the solo journalling RPG [Apawethecaria](https://blackwellwriter.itch.io/apawthecaria-a-poultice-pounder-adventure) in Obsidian.md.
 
 ## Flowcharts
-Apawthecaria can be a bit confusing and involve a lot of back and forth between encounters and foraging and so on. 
+[Apawthecaria](https://blackwellwriter.itch.io/apawthecaria-a-poultice-pounder-adventure) can be a bit confusing and involve a lot of back and forth between encounters and foraging and so on. 
 
 #### Making a Move
 I made this flowchart to take you through all the different forks and decisions you need to make every time you make a move.
