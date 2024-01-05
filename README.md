@@ -9,13 +9,11 @@ Snippets and templates for setting up and playing the solo journalling RPG [Apaw
 #### Making a Move
 I made a flowchart to take you through all the different forks and decisions you need to make every time you make a move.
 
-<a href="/APAW-Process-Screenshot.png"><img src="/APAW-Process-Screenshot.png" width="300px" /></a>
+<a href="/APAW-Flowchart-Moving.png"><img src="/APAW-Flowchart-Moving.png" height="200px" /></a>
 
 _Click image to see bigger version_
 
-It's available as an [Obsidian canvas](/APAW-Process.canvas) to save directly into your vault, and as a (huge) [PNG](/APAW-Process.png) for those of you who'd prefer to be able to view it elsewhere.
-
-**UPDATE:** (2023-01-05) I added Soaring to the Move flowchart.
+It's available as an [Obsidian canvas](/APAW-Flowchart-Moving.canvas) to save directly into your vault, and as a (huge) [PNG](/APAW-Flowchart-Moving.png) for those of you who'd prefer to be able to view it elsewhere. (Now includes Soaring.)
 
 #### Character Creation Flowchart
 This part's not nearly as confusing, but I thought it still might come in handy to have a flowchart for it.
