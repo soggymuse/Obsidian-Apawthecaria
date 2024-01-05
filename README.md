@@ -9,7 +9,7 @@ Snippets and templates for setting up and playing the solo journalling RPG [Apaw
 #### Making a Move
 I made a flowchart to take you through all the different forks and decisions you need to make every time you make a move.
 
-<a href="/APAW-Flowchart-Moving.png"><img src="/APAW-Flowchart-Moving.png" height="200px" /></a>
+<a href="/APAW-Flowchart-Moving.png"><img src="/APAW-Flowchart-Moving.png" height="200px" /></a> <a href="/APAW-Flowchart-Moving-Light.png"><img src="/APAW-Flowchart-Moving-Light.png" height="200px" /></a>
 
 _Click image to see bigger version_
 
@@ -18,9 +18,11 @@ It's available as an [Obsidian canvas](/APAW-Flowchart-Moving.canvas) to save di
 #### Character Creation Flowchart
 This part's not nearly as confusing, but I thought it still might come in handy to have a flowchart for it.
 
-<a href="/APAW-Flowchart-CharacterCreation.png"><img src="/APAW-Flowchart-CharacterCreation.png" height="150px" /></a>
+<a href="/APAW-Flowchart-CharacterCreation.png"><img src="/APAW-Flowchart-CharacterCreation.png" height="150px" /></a> <a href="/APAW-Flowchart-CharacterCreation-Light.png"><img src="/APAW-Flowchart-CharacterCreation-Light.png" height="150px" /></a>
 
-It's also available as an [Obsidian canvas](/APAW-Flowchart-CharacterCreation.canvas) and a [PNG](/APAW-Flowchart-CharacterCreation.png).
+_Click image to see bigger version_
+
+It's also available as an [Obsidian canvas](/APAW-Flowchart-CharacterCreation.canvas) and a PNG in both [light](/APAW-Flowchart-CharacterCreation-Light.png) and [dark](/APAW-Flowchart-CharacterCreation.png) modes.
 
 ## Statblocks
 I'm using statblocks from the [Fantasy Statblocks](https://github.com/javalent/fantasy-statblocks) plugin for things like character sheets and encounter cards.
