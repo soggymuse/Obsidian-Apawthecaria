@@ -4,17 +4,25 @@ Snippets and templates for setting up and playing the solo journalling RPG [Apaw
 ## Flowcharts
 [Apawthecaria](https://blackwellwriter.itch.io/apawthecaria-a-poultice-pounder-adventure) can be a bit confusing and involve a lot of back and forth between encounters and foraging and so on. 
 
+**Note:** The screenshots show the flowcharts in my dark custom theme. If you copy them into your vault as .canvas files, they'll be the same colour as your theme. I plan to create light-mode versions at some point.
+
 #### Making a Move
 I made a flowchart to take you through all the different forks and decisions you need to make every time you make a move.
 
-![Screenshot of Move Process](/APAW-Process_Screenshot-Small.png)
+<a href="/APAW-Process-Screenshot.png"><img src="/APAW-Process-Screenshot.png" width="300px" /></a>
 
-_You can see a larger screenshot with better resolution [here](/APAW-Process_Screenshot.png)._
+_Click image to see bigger version_
 
 It's available as an [Obsidian canvas](/APAW-Process.canvas) to save directly into your vault, and as a (huge) [PNG](/APAW-Process.png) for those of you who'd prefer to be able to view it elsewhere.
 
-#### Coming Soon
-I'll be adding a few parts to the flowchart at some point, like Character Creation and how _Soaring_ works. I'm not sure if I should add them to the **Making a Move** flowchart above, or if they should be separate files. **What do you think?**
+**UPDATE:** (2023-01-05) I added Soaring to the Move flowchart.
+
+#### Character Creation Flowchart
+This part's not nearly as confusing, but I thought it still might come in handy to have a flowchart for it.
+
+<a href="/APAW-Flowchart-CharacterCreation.png"><img src="/APAW-Flowchart-CharacterCreation.png" height="150px" /></a>
+
+It's also available as an [Obsidian canvas](/APAW-Flowchart-CharacterCreation.canvas) and a [PNG](/APAW-Flowchart-CharacterCreation.png).
 
 ## Statblocks
 I'm using statblocks from the [Fantasy Statblocks](https://github.com/javalent/fantasy-statblocks) plugin for things like character sheets and encounter cards.
