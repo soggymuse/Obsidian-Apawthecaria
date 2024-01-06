@@ -34,7 +34,7 @@ You need a few things for these to work:
 
 The CSS snippet(s) I'll be uploading eventually are *optional*. Mine make my statblocks match the main colours from the Apawthecaria map, but you can stick with the plugin's default or style your own.
 
-#### Non-player Character Sheet
+### Non-player Character Sheet
 
 <img src="/APAW-NPC-Statblock-Long.png" width="300px" />
 
@@ -46,7 +46,14 @@ The CSS snippet(s) I'll be uploading eventually are *optional*. Mine make my sta
 
 The NPC statblock is short and designed for quick notes about characters you meet on the road. You can get the JSON for the statblock [here](/ApawthecariaNPC.json) (to import through the Fantasy Statblock plugin) and the markdown template [here](/FSB-APAW-NPC.md) (to save in your templates folder).
 
-#### Ailment Cards
+**Note:** I also use the NPC statblock for location cards (like for Odoak) to save on layouts. Just have the name, image, location, and description fields, and you'll get something like this:
+
+<img src="/APAW-Location-Statblock.png" width="300px" />
+
+*Image created with [NightCafe AI](https://creator.nightcafe.studio)*
+
+
+### Ailment Cards
 
 <img src="/APAW-AilmentCard.png" width="300px" />
 
@@ -55,5 +62,5 @@ This is a great way to copy the ailments from the PDF into Obsidian. You can lin
 The JSON for the statblock is [here](/ApawthecariaAilment.json) (to import through the Fantasy Statblock plugin) and the markdown template is [here](/FSB/APAW-Ailment.md) (to save in your templates folder).
 
 
-#### Coming Soon
+### Coming Soon
 I'll add more templates for them (and maybe the CSS, too) when I'm done fiddling. 
