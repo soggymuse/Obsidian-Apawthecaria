@@ -1,0 +1,314 @@
+/************************************************
+FANTASY STATBLOCKS FOR APAWTHECARIA
+by soggymuse 
+https://github.com/soggymuse/Obsidian-Apawthecaria
+************************************************/
+
+/*SET UP VARIABLES*/
+.statblock[class*="apawthecaria"] {
+    
+    --statblock-column-width: 400px;
+
+    /*COLOURS*/
+    --statblock-background-color: #C0AD9B;
+    --statblock-box-shadow-color: #3B302D;
+    --statblock-box-shadow-x-offset: 0px;
+    --statblock-box-shadow-y-offset: 0px;
+    --statblock-box-shadow-blur: 200px;
+    --statblock-border-size: 1px;
+    --statblock-border-color: #A39281;
+    
+    --statblock-primary-color: #201D1D;
+    --statblock-rule-color: #787260;
+    
+    --statblock-link-color: #584741;
+    --statblock-link-underline-color: #787260;
+    
+    --statblock-table-border-size: var(--statblock-image-border-size);
+    --statblock-table-border-color: var(--statblock-image-border-color);
+    --statblock-table-border-style: var(--statblock-image-border-style);
+    --statblock-table-border-radius: 0%;
+    --statblock-table-height: 60px;
+    --statblock-table-width: 60px;
+    
+    /*FONTS*/
+    --statblock-heading-font: var(--default-font);
+    --statblock-heading-font-color: #201D1D;
+    --statblock-heading-font-size: 1.35em;
+    --statblock-heading-font-variant: none;
+    --statblock-heading-font-weight: 900;
+    --statblock-heading-line-height: 1em;
+    --statblock-heading-letter-spacing: 3px;
+    
+    --statblock-subheading-font-size: 0.8em;
+    --statblock-subheading-font-style: normal;
+    --statblock-subheading-font-weight: 600;
+    --statblock-subheading-font-color: #55453e;
+    --statblock-subheading-letter-spacing: 1px;
+    --statblock-subheading-line-height: 1.2em;
+    
+    --statblock-section-heading-border-size:;
+    --statblock-section-heading-font-color: var(--statblock-heading-font-color);
+    --statblock-section-heading-font-size:;
+    --statblock-section-heading-font-variant: normal;
+    --statblock-section-heading-font-weight: 600;
+    --statblock-section-heading-line-height: 1.5em;
+    --statblock-section-heading-letter-spacing: 1px;
+    
+    --statblock-content-font: var(--default-font);
+    --statblock-content-font-size:;    
+    --statblock-font-color: #3A2D28;
+    --statblock-font-weight:;
+    
+    --statblock-property-line-height: 0.5em;
+    --statblock-property-font-color: #3A2D28;
+    --statblock-property-name-font-color: #55453E;
+    --statblock-property-name-font-weight: 500;
+    --statblock-property-name-line-height: 1.5em;
+    --statblock-property-text-font-color: #55453E;
+    --statblock-property-text-font-weight: 400;
+    --statblock-property-text-line-height: 0.5em;
+    --statblock-property-text-font-style: italic;
+    
+    --statblock-saves-line-height:;
+    --statblock-spells-font-style:;
+    
+    --statblock-table-header-font-weight: 500;
+    --statblock-table-font-size: 0.7em; 
+    
+    --statblock-traits-font-weight:;
+    --statblock-traits-font-style:;
+    
+    --statblock-link-style: normal;
+    
+    /*TOP & BOTTOM DECORATIVE BAR*/
+    --statblock-bar-color: linear-gradient(0.25turn, #201A17, #787260, #201A17);
+    --statblock-bar-border-size: 0;
+    --statblock-bar-border-color: #201D1D;
+    
+    /*IMAGES*/
+    --statblock-image-width: 150px;
+    --statblock-image-height: 150px;
+    --statblock-image-border-size: 3px;
+    --statblock-image-border-color: #3b2f2b;
+    --statblock-image-border-style: double;
+}
+
+/************************************************
+FANTASY STATBLOCKS FOR APAWTHECARIA -- GENERAL
+************************************************/
+
+.statblock[class*="apawthecaria"] .statblock-content {
+    width: var(--statblock-column-width);
+    box-shadow: inset 
+        var(--statblock-box-shadow-x-offset) 
+        var(--statblock-box-shadow-y-offset) 
+        var(--statblock-box-shadow-blur) 
+        var(--statblock-box-shadow-color); 
+    padding: 10px; }
+
+.statblock[class*="apawthecaria"] .bar { height: 3px; }
+
+/*IMAGE*/
+/*reduce space under header*/
+.statblock[class*="apawthecaria"] .image-container {
+    margin-bottom: -2em; }
+
+/*reduce space under header even more for MC statblock*/
+.statblock[class*="character"] .image-container {
+    margin-bottom: -5em; }
+
+.statblock[class*="apawthecaria"] .image img {
+    border-style: var(--statblock-image-border-style); }
+
+.statblock[class*="reagent"] .image img {
+    border: 3px double var(--statblock-border-color);
+    height: 150px; 
+    width: 150px; 
+    border-radius: 0;
+    box-shadow: 0 0 10px var(--statblock-border-color); 
+    margin: 0;
+    padding: 0; }
+
+.statblock[class*="reagent"] .image { margin-top: -30px; }
+
+/*HORIZONTAL RULE*/
+.statblock[class*="apawthecaria"] .tapered-rule { 
+    height: 3px; 
+    margin: 15px 0; 
+    width: 65%; }
+
+/*HEADERS*/
+/*remove backgrounds that come from theme*/
+.statblock[class*="apawthecaria"] :is(h1,h2,h3,h4,h5,h6) {
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: var(--statblock-heading-font-size);
+    box-shadow: none; 
+    text-shadow: none;
+    text-align: left;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    letter-spacing: var(--statblock-heading-letter-spacing); }
+
+/*remove decorations that come from theme*/
+.statblock[class*="apawthecaria"] :is(h1,h2,h3,h4,h5,h6):before,
+.statblock[class*="apawthecaria"] :is(h1,h2,h3,h4,h5,h6):after {
+    display: none; }
+
+.statblock[class*="apawthecaria"] .subheading {
+    line-height: var(--statblock-subheading-line-height);
+    text-transform: uppercase;
+    color: var(--statblock-subheading-font-color);
+    letter-spacing: var(--statblock-subheading-letter-spacing); }
+
+.statblock[class*="apawthecaria"] .section-header {
+    margin-top: 5px;
+    line-height: var(--statblock-section-heading-line-height);
+    letter-spacing: var(--statblock-section-heading-letter-spacing); }
+
+/*ACCENTS*/
+.statblock[class*="apawthecaria"] .internal-link { 
+    text-decoration: underline 3px solid var(--statblock-link-underline-color);
+    color: var(--statblock-link-color); }
+
+.statblock[class*="apawthecaria"] .internal-link:hover {
+    color: var(--statblock-link-color);
+    text-decoration: underline 3px solid var(--statblock-link-color); }
+
+/*remove decorations applied by theme*/
+.statblock[class*="apawthecaria"] .internal-link:before,
+.statblock[class*="apawthecaria"] .internal-link:after { display: none; }
+
+/*TRAITS & PROPERTIES*/
+.statblock[class*="apawthecaria"] .property { 
+    margin-top: 5px; }
+
+.statblock[class*="apawthecaria"] .property-name {
+    display: block;
+    font-weight: var(--statblock-property-name-font-weight); 
+    color: var(--statblock-property-name-color); 
+    line-height: var(--statblock-property-name-line-height); }
+
+.statblock[class*="apawthecaria"] .property-text {
+    color: var(--statblock-property-text-font-color); 
+    line-height: var(--statblock-property-text-line-height) ;
+    font-weight: var(--statblock-property-text-font-weight); }
+
+.statblock[class*="apawthecaria"] .property-name .line {
+    text-transform: uppercase; }
+
+/*Set width of columns for specific statblocks*/
+.statblock[class*="reagent"] .modifiers .traits-container { width: 100%; }
+
+.statblock[class*="apawthecaria"] .modifiers .property-name,
+.statblock[class*="apawthecaria"] .modifiers .property-text {
+    margin: 2em 0.15em; }{ 
+    display: inline; }
+
+.statblock[class*="apawthecaria"] .modifiers .property-name {
+    text-transform: uppercase; 
+    color: var(--statblock-property-text-font-color);
+    font-size: 0.9em;
+    font-weight: 500; }
+
+.statblock[class*="apawthecaria"] .modifiers .property-text {
+    font-size: 0.9em; }
+
+/*Style skills & goals box*/
+.statblock[class*="apawthecaria"] .skills { 
+    width: 150px; }
+
+.statblock[class*="apawthecaria"] .skills .property-name,
+.statblock[class*="apawthecaria"] .skills .property-text,
+.statblock[class*="apawthecaria"] .location .property-name,
+.statblock[class*="apawthecaria"] .location .property-text,
+.statblock[class*="apawthecaria"] .season .property-name,
+.statblock[class*="apawthecaria"] .season .property-text { display: inline; }
+
+.statblock[class*="apawthecaria"] .goal .property-text { font-style: italic; }
+
+.statblock[class*="apawthecaria"] .location .property-text,
+.statblock[class*="apawthecaria"] .season .property-text,
+.statblock[class*="apawthecaria"] .parts .property-text {
+    color: var(--statblock-property-text-font-color); }
+
+.statblock[class*="apawthecaria"] .location .property-name,
+.statblock[class*="apawthecaria"] .season .property-name { font-weight: 600; }
+
+.statblock[class*="apawthecaria"] .parts .statblock-markdown p { 
+    display: block; 
+    margin: 0;
+    margin-left: 10px;
+    font-size: 0.9em; }
+
+.statblock[class*="apawthecaria"] .tools .property-text,
+.statblock[class*="apawthecaria"] .items .property-text {
+    display: block;
+    line-height: 1.2em; 
+    margin-left: 12px; }
+
+/*STYLE TAGS*/
+/*Remove huge space under heading*/
+.statblock[class*="apawthecaria"] .tags { margin-top: -80px; }
+
+/*Add the space back for specific statblocks*/
+.statblock[class*="recipe"] .tags,
+.statblock[class*="reagent"] .tags { margin-top: 0; }
+
+.statblock[class*="recipe"] .tags { margin-top: 0; }
+
+.statblock[class*="apawthecaria"] .tags .property-name {
+    display: none; }
+
+.statblock[class*="apawthecaria"] .tags .property-text {
+    color: transparent; }
+
+.statblock[class*="apawthecaria"] .tags .property-text .internal-link {
+    display: block;
+    line-height: var(--statblock-subheading-line-height);
+    text-transform: uppercase;
+    padding: 2px; 
+    margin: 5px 5px 5px -2px;
+    color: var(--statblock-subheading-font-color);
+    letter-spacing: var(--statblock-subheading-letter-spacing);
+    font-weight: var(--statblock-subheading-font-weight);
+    font-size: var(--statblock-subheading-font-size); }
+
+/*ADD OUTCOME/CONSEQUENCE INDICATORS*/
+.statblock[class*="apawthecaria"] .outcome .statblock-section-heading,
+.statblock[class*="apawthecaria"] .consequence .section-header,
+.statblock[class*="apawthecaria"] .tasks .section-header { display: none; }
+
+.statblock[class*="apawthecaria"] .outcome .property-name:before {
+    content: "✚ "; }
+
+.statblock[class*="apawthecaria"] .consequence .property-name:before,
+.statblock[class*="apawthecaria"] .consequences .property-name:before {
+    content: "🀰 "; }
+
+/*Make description italic*/
+.statblock[class*="apawthecaria"] .description .property-text {
+    font-style: var(--statblock-property-text-font-style); }
+
+/*TABLES*/
+.statblock[class*="apawthecaria"] .table-item {
+    border: var(--statblock-table-border-size) var(--statblock-table-border-style) var(--statblock-table-border-color);
+    border-radius: var(--statblock-table-border-radius); 
+    height: var(--statblock-table-height);
+    width: var(--statblock-table-width); 
+    padding: 5px; 
+    margin: 2em 0.15em;
+    font-size: var(--statblock-table-font-size);
+    text-align: center; }
+
+.statblock[class*="apawthecaria"] .statblock-table-header { 
+    font-size: 0.8em; 
+    text-transform: uppercase; }
+
+/*TEXT ACCENTS*/
+.statblock[class*="apawthecaria"] em { 
+    font-weight: 400;
+    color: var(--statblock-link-color); }
