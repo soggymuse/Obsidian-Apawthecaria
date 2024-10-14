@@ -32,7 +32,7 @@ You need a few things for these to work:
 2. The **JSON** file for whichever statblock you want to use
 3. The matching **template** (.md file) for whichever statblock you want to use.
 
-The CSS snippet(s) I'll be uploading eventually are *optional*. Mine make my statblocks match the main colours from the Apawthecaria map, but you can stick with the plugin's default or style your own.
+The [CSS snippet](/APAW-Statblock.css) for the statblocks is *optional*. Mine make my statblocks match the main colours from the Apawthecaria map, but you can stick with the plugin's default or style your own. I wrote this snippet before I learned how to use theme variables, so you'll need to go through the **Set up Variables** section at the top and change all the colour hexes (e.g. <code>--statblock-background-color: #C0AD9B;</code>) to suit your theme.
 
 ### Non-player Character Sheet
 
