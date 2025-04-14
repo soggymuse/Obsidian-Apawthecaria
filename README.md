@@ -1,6 +1,12 @@
 # Obsidian-Apawthecaria
 Snippets and templates for setting up and playing the solo journalling RPG [Apawethecaria](https://blackwellwriter.itch.io/apawthecaria-a-poultice-pounder-adventure) in Obsidian.md.
 
+## Boheme Theme
+
+<img width="1280" alt="Screenshot 2025-04-14 at 07 06 31" src="https://github.com/user-attachments/assets/cc203270-cc7f-4847-8877-e030545f8903" />
+
+Boheme is an _untested_ brown and gold theme made for my Apawthecaria playthrough. It makes heavy use of javalent's Fantasy Statblocks plugin.
+
 ## Flowcharts
 [Apawthecaria](https://blackwellwriter.itch.io/apawthecaria-a-poultice-pounder-adventure) can be a bit confusing and involve a lot of back and forth between encounters and foraging and so on. 
 
