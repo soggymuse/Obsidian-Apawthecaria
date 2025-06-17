@@ -73,11 +73,11 @@ I use Dataview for my Sourcebook content now; they're much more pliable and usef
 
 These templates use the YAML frontmatter functionality built-in to Obsidian to set the information, along with a Dataview template to use it. You can then use another Dataview template to index and filter all ailments in your vault. 
 
-You'll need the [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) plugin to make them work as intended. You'll also need my `snippets.css` file if you want your templates to look like mine.
+You'll need the [Dataview](https://blacksmithgu.github.io/obsidian-dataview/) plugin to make them work as intended. You'll also need my [snippets.css](https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/Snippets/snippets.css) file if you want your templates to look like mine.
 
 ### Templates Explained
 
-I use three different custom callouts for all the templates in my vault: `[!ailment]` `[!reagent]` and `[!recipe]`. , `[!ailment]` is really just a standard callout with no icon so you could use any of the default callouts instead, whereas `[!reagent]` adds a border and `[!recipe]` has two columns for ingredients and instructions.
+I use three different custom callouts for all the templates in my vault: `[!ailment]` `[!reagent]` and `[!recipe]`.  `[!ailment]` is really just a standard callout with no icon so you could use any of the default callouts instead, whereas `[!reagent]` adds a border and `[!recipe]` has two columns for ingredients and instructions.
 
 **Note:** Not all fields are used in all templates.
 
