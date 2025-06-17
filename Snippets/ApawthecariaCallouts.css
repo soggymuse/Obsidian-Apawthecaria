@@ -1,0 +1,208 @@
+/************************************************
+SET DEFAULTS (Apothecary theme by soggymuse)
+************************************************/
+:root,
+body,
+.theme-dark,
+body.theme-dark {
+
+/*COLOURS*/
+    --medium-green: rgb(84, 101, 72);
+    --md-green: rgb(63, 75, 54);
+    --dark-green: rgb(40, 48, 34);
+    --darker-green: rgb(34, 41, 28);
+    --very-dark-green: rgb(24, 28, 21);
+    
+    --yellow: rgb(195, 188, 102);
+    --gold: rgb(172, 152, 86);
+    --dark-gold: rgb(113, 96, 25);
+    
+    --black: rgb(16, 18, 14);
+    --white: rgb(224, 240, 230);
+    
+    --cream: rgb(188, 206, 165);
+    --biscuit: rgb(136, 168, 105);
+    --beige: rgb(108, 128, 89);
+    
+    --rust: rgb(149, 95, 62);
+    
+/************************************************
+CALLOUTS
+************************************************/
+
+.callout[data-callout="recipe"],
+.callout[data-callout="reagent"] {
+    background: var(--dark-green); 
+    border-radius: 0;
+    border: 3px double var(--dark-gold);
+    box-shadow: inset 0 0 50px var(--very-dark-green);
+    padding: 0; }
+
+.callout[data-callout="recipe"] .callout-icon,
+.callout[data-callout="reagent"] .callout-icon { display: none; }
+
+.callout[data-callout="recipe"] .callout-title {
+    background: var(--darker-green);
+    border-bottom: 1px solid var(--dark-green);
+    box-shadow: 1px 0 20px var(--black);
+    margin: 0;
+    padding: 5px; }
+
+.callout[data-callout="recipe"] .callout-title-inner {
+    text-shadow: 1px 1px 0 var(--very-dark-green);
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+    font-variant: small-caps;
+    letter-spacing: 5px; }
+
+.callout[data-callout="reagent"] .callout-title-inner { 
+    text-align: center;
+    margin: auto; 
+    font-family: Colendra; 
+    font-size: 2em; 
+    font-variant: normal; }
+
+.callout[data-callout="recipe"] .callout-content,
+.callout[data-callout="reagent"] .callout-content { 
+    box-shadow: inset 0 0 50px var(--very-dark-green);
+    padding: 10px; }
+
+.callout[data-callout="reagent"] .callout-content { padding: 5px 20px; }
+
+.callout[data-callout="reagent"] > blockquote { border: 0; }
+
+.callout[data-callout="recipe"] .callout[data-callout="column"] {
+    border-radius: 0;
+    border-top: 1px solid var(--dark-gold);
+    border-bottom: 1px solid var(--dark-gold);
+    margin: 0; }
+
+.callout[data-callout="recipe"] .callout[data-callout="column"] .callout-content { padding: 0; }
+
+.callout[data-callout="recipe"] .callout[data-callout="column"] blockquote {
+    margin: 0; 
+    padding-top: 10px; 
+    border-right: 1px solid var(--dark-gold); }
+
+.callout[data-callout="recipe"] .callout[data-callout="column"] blockquote:last-child { border: 0; }
+
+.callout[data-callout="recipe"] .callout[data-callout="column"] blockquote ol,
+.callout[data-callout="recipe"] .callout[data-callout="column"] blockquote ul { 
+    margin-left: -12px;     
+    padding-bottom: 10px; }
+
+.callout[data-callout="reagent"] .callout[data-callout="caption"] { 
+    background: none;
+    box-shadow: none;
+    border-radius: 0px;
+    max-width: 45%; }
+
+.callout[data-callout="reagent"] table { 
+    background: none;
+    border: 0; 
+    margin: 20px auto 0; }
+
+.callout[data-callout="reagent"] table thead { display: none; }
+
+.callout[data-callout="reagent"] table tbody tr td { 
+    padding: 5px 0;
+    background: transparent;
+    border: 0;
+    text-align: center; }
+
+.callout[data-callout="cat"],
+.callout[data-callout="crow"],
+.callout[data-callout="ailment"],
+.callout[data-callout="npc"] { 
+    padding: 0;
+    border-radius: 0;
+    background: transparent; }
+
+.callout[data-callout="lizard"] .callout-content,
+.callout[data-callout="lizard"] .callout-title {
+    font-family: "Acadian Runes", "Comic Runes";
+    font-size: 1.5em; }
+
+.callout[data-callout="cat"] .callout-title,
+.callout[data-callout="crow"] .callout-title,
+.callout[data-callout="ailment"] .callout-title,
+.callout[data-callout="npc"] .callout-title {
+    margin: 0;
+    padding: 0;
+    border-radius: 0; 
+    background: var(--darker-green);
+    color: var(--beige); }
+
+.callout[data-callout="cat"] .callout-icon,
+.callout[data-callout="crow"] .callout-icon,
+.callout[data-callout="npc"] .callout-icon {
+    position: relative;
+    top: 0px; 
+    margin-right: -50px;
+    left: -2px;
+    border-radius: 0; 
+    transform: rotate(-10deg); }
+
+.callout[data-callout="lizard"] .callout-icon { top: -5px; }
+
+.callout[data-callout="ailment"] .callout-icon {
+    display: none;
+    position: absolute;
+    top: 10px; 
+    left: 5px;
+    border-radius: 0; 
+    transform: rotate(-30deg); }
+
+.callout[data-callout="crow"] .callout-icon {
+    left: 2px; }
+
+.callout[data-callout="cat"] .callout-icon svg,
+.callout[data-callout="crow"] .callout-icon svg,
+.callout[data-callout="npc"] .callout-icon svg { 
+    color: var(--rust); 
+    width: 50px;
+    height: 50px; }
+
+.callout[data-callout="lizard"] .callout-icon svg {
+    width: 25px;
+    height: 25px; }
+
+.callout[data-callout="cat"] .callout-title-inner,
+.callout[data-callout="crow"] .callout-title-inner,
+.callout[data-callout="npc"] .callout-title-inner { 
+    margin: 15px 0 1px 50px; }
+
+.callout[data-callout="crow"] .callout-title-inner { margin-left: 40px; }
+
+.callout[data-callout="ailment"] .callout-title-inner { padding: 5px 10px; margin: auto; text-align: center; }
+
+.callout[data-callout="cat"] .callout-content,
+.callout[data-callout="crow"] .callout-content,
+.callout[data-callout="ailment"] .callout-content,
+.callout[data-callout="npc"] .callout-content { 
+    background: var(--dark-green);
+    padding: 0; 
+    margin: 0; }
+
+.callout[data-callout="crow"] .callout-title { background: rgba(44, 38, 46, 0.9);  }
+
+.callout[data-callout="crow"] .callout-title-inner { 
+    margin-left: 50px; 
+    color: rgb(125, 113, 129); }
+
+.callout[data-callout="crow"] .callout-content { background: rgba(53, 44, 56, 0.4); }
+
+.callout[data-callout="crow"] .callout-content p { color: rgb(122, 117, 124); }
+
+.callout[data-callout="crow"] .callout-icon { transform: none; left: 0; }
+
+.callout[data-callout="crow"] .callout-icon svg { color: rgb(103, 88, 109); }
+
+.callout[data-callout="cat"] .callout-content p,
+.callout[data-callout="crow"] .callout-content p,
+.callout[data-callout="ailment"] .callout-content p,
+.callout[data-callout="npc"] .callout-content p { margin: 10px 20px; }
+
+.callout[data-callout="recipe"] .callout-content ul li { margin-left: 40px; }
