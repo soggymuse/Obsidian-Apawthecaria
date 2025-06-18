@@ -109,6 +109,9 @@ I use three different custom callouts for all the templates in my vault: `[!ailm
 
 [This is the CSS snippet](https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/Snippets/ApawthecariaCallouts.css) for my custom callouts (some of which are listed above). It includes cute callouts for my characters, Miska (cat), Frank (gecko) and Aulay (crow). You'll need the **Admonition** plugin and SlRvb's [Callout Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Callouts.css) snippet to use them.
 
+<img src="https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/AilmentCallout.png" width="200" /> <img src="https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/RecipeCallout.png" width="200" /> <img src="https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/ReagentCallout.png" width="200" />
+<br>*The images above show the Properties required for the callouts to work using Dataview (although you could fill the templates in manually instead; this wouldn't allow you to use Dataview on them in indices or elsewhere) and the templatees in action.*
+
 1. Install the **Admonition** plugin from Obsidian's plugin browser.
 2. Save my [ApawthecariaCallouts.css](https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/Snippets/ApawthecariaCallouts.css) and SlRvb's [Callout Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Callouts.css) to your snippets folder.
 3. Enable both snippets via Appearances.
