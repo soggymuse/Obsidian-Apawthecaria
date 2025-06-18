@@ -107,14 +107,16 @@ I use three different custom callouts for all the templates in my vault: `[!ailm
 
 ### Custom Callouts
 
-[This is the CSS snippet](https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/Snippets/ApawthecariaCallouts.css) for my custom callouts (some of which are listed above). It includes cute callouts for my characters, Miska (cat), Frank (gecko) and Aulay (crow). You'll need the **Admonition** plugin to use them.
+[This is the CSS snippet](https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/Snippets/ApawthecariaCallouts.css) for my custom callouts (some of which are listed above). It includes cute callouts for my characters, Miska (cat), Frank (gecko) and Aulay (crow). You'll need the **Admonition** plugin and SlRvb's [Callout Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Callouts.css) snippet to use them.
 
 1. Install the **Admonition** plugin from Obsidian's plugin browser.
-2. Enable the plugin and go to Options.
-3. Click the **+** button to add a new custom callout.
-4. Title it "cat". 
-5. Choose `lucide-cat` for the icon.
-6. Repeat Steps 4-5 but use "lizard", "crow", `gecko` and `bird-mask` respectively.
+2. Save my [ApawthecariaCallouts.css](https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/Snippets/ApawthecariaCallouts.css) and SlRvb's [Callout Adjustments](https://github.com/SlRvb/Obsidian--ITS-Theme/blob/main/Snippets/S%20-%20Callouts.css) to your snippets folder.
+3. Enable both snippets via Appearances.
+4. Enable the **Admonition** plugin and go to Options.
+5. Click the **+** button to add a new custom callout.
+6. Title it "cat". 
+7. Choose `lucide-cat` for the icon.
+8. Repeat Steps 4-5 but use "lizard", "crow", `gecko` and `bird-mask` respectively.
 
 Miska and Frank's callouts (the cat and lizard) will be green; Aulay's (the crow) will be purple. You can change these colours in the CSS snippet (using a text editor) by altering the rgb numbers.
 
