@@ -1,6 +1,20 @@
 # Obsidian-Apawthecaria
 Snippets and templates for setting up and playing the solo journalling RPG [Apawethecaria](https://blackwellwriter.itch.io/apawthecaria-a-poultice-pounder-adventure) in Obsidian.md.
 
+## Playing Cards
+
+I made an animal-themed AI-based playing deck for my Apawthecaria games and I figured I'd share it here for anyone who wants to play digitally (I use the Solo RPG Toolkit for Obsidian) or print them off to play analogue. There are three sub-decks, as below, and a deck of Companions you can use separately.
+
+<img width="1280" src="https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/Playing-Cards/Apawthecaria-Layout.png?raw=true" />
+
+You can combine the Poker, Tarot and Runic sub-decks into one mega deck, combine just the Poker and Tarot decks to for the minor and major Arcana, or keep them all separate and just use the Poker deck as the game intends. The Runic and Tarot sub-decks include extra prompts from various randomisers, and all three include the Tarot/Futhark meanings - all of which you can ignore. The image on each card also means you can use them to draw a Familiar at the beginning of your Journey, or a Patient and NPCs for your next Move.
+
+<img width="1280" src="https://github.com/soggymuse/Obsidian-Apawthecaria/blob/main/Playing-Cards/Companions-Layout.png?raw=true" />
+
+The Companions deck is a bit different and is designed to stick in your journal, be it digital or analogue. You get an AI image of the Companion type, its cost, where you can acquire it, its description, and bonus. Not pictured in the preview above is an icon in the top right showing the limits on certain Companions (such as being only available for use once per Journey, or only producing a Reagent every 10 moves/paths).
+
+I've also included extra Companions from the Festival of Elsewhere (by HospitalCowboy on the BlackwellGames Discord), and my own homebrew Companions (the bumblebee and wood ant merely reflavour the butterfly and beetle respectively, while the ladybird lets you ignore encounters involving biting/hungry insects). These extras have a star in the top left corner of the card telling you where they come from.
+
 ## Boheme Theme
 
 <img width="1280" alt="Screenshot 2025-04-14 at 07 06 31" src="https://github.com/user-attachments/assets/cc203270-cc7f-4847-8877-e030545f8903" />
